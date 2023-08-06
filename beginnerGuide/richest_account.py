@@ -13,5 +13,5 @@ class Solution(object):
         return max_wealth
     
 
-main = '__main__':
+if __name__ == '__main__':
     maxWealth =  Solution.maximumWealth([1,2,3], [1,2,3])
